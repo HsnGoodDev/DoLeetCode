@@ -14,7 +14,12 @@ class Solution {
                 result.push(Integer.valueOf(op)); 
             }
         }
-        return result.stream().mapToInt(Integer::intValue).sum(); 
+        //return result.stream().mapToInt(Integer::intValue).sum(); 
+        int point = 0; 
+        for(final int round : result){
+            point += round; 
+        }
+        return point; 
         
     }
 }
