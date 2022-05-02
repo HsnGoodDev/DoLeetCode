@@ -3,6 +3,7 @@ class Solution {
         // int to string 
         // - 기호 경우 유지 
         // reverse 후 0이 첫 숫자 면 생략 
+        // 범위 
         int resultNumber = 0;
         while (x != 0)
     {
@@ -15,5 +16,9 @@ class Solution {
     }
 
     return resultNumber;
+         
+
+
+
     }
 }
